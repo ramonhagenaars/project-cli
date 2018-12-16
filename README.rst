@@ -5,6 +5,7 @@ project_cli
 
 A commandline interface for creating structured Python projects.
 
+
 Installation
 ''''''''''''
 
@@ -26,6 +27,22 @@ If you trust ``project_cli`` to make the right decisions, you can say 'yes' to a
 
     python -m project_cli -y
 
+
+Detailed information
+''''''''''''''''''''
+Here is an example project structure created by this tool for a runnable project:
+
+::
+
+    > proj_name
+        __init__.py
+        __main__.py
+    > tests
+        __init__.py
+        context.py
+        test_main.py
+    README.rst
+    setup.py
 
 
 Meta
