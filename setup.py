@@ -5,7 +5,7 @@ with open('README.rst', 'r') as fh:
     long_description = fh.read()
 
 setup(name='project_cli',
-      version='0.1.0',
+      version='0.1.1',
       author='Ramon Hagenaars',
       description='A commandline interface for creating project structures',
       long_description=long_description,

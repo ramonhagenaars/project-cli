@@ -76,7 +76,7 @@ def _get_user_inputs():
 def _setup(name, description, version, author, runnable):
     print('Setting up project now')
 
-    main_package = 'test_' + name
+    main_package = name
     tests_package = 'tests'
 
     os.makedirs(main_package, exist_ok=True)
