@@ -44,6 +44,26 @@ Here is an example project structure created by this tool for a runnable project
     README.rst
     setup.py
 
+You can run your app as follows:
+
+::
+
+    python -m proj_name
+
+
+You can run tests as follows:
+
+::
+
+    python -m unittest discover tests
+
+You can also install your project in your own pip repository (or in a virtual environment) to make it runnable anywhere on your system:
+
+::
+
+    pip install -e .
+
+Note: the ``-e`` flag is optional. It will keep your pip repository synchronized with your source code.
 
 Meta
 ''''
