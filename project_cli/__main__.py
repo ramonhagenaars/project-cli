@@ -1,5 +1,5 @@
 import argparse
-from project_cli import project_setup
+from project_cli import initializer
 
 
 def main():
@@ -7,7 +7,7 @@ def main():
     parser.add_argument('-y', '--yes', action='store_true',
                         help="Say 'yes' to all prompts")
     args = parser.parse_known_args()[0]
-    project_setup.setup(args)
+    initializer.setup(args)
 
 
 if __name__ == '__main__':
