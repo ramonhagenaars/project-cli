@@ -1,3 +1,5 @@
+|PyPI version|
+
 project_cli
 ===========
 
@@ -31,3 +33,6 @@ Meta
 Ramon Hagenaars - ramon.hagenaars@gmail.com
 
 This structure was inspired by `Kenneth Reitz <https://github.com/kennethreitz/samplemod>`_.
+
+.. |PyPI version| image:: https://badge.fury.io/py/project-cli.svg
+   :target: https://badge.fury.io/py/project-cli
