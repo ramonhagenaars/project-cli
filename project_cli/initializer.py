@@ -10,7 +10,7 @@ else:
     ENV_USER = 'USER'
 
 
-_DEFAULT_NAME = os.getcwd().split(os.sep)[-1]
+_DEFAULT_NAME = os.getcwd().split(os.sep)[-1].replace('-', '_')
 _DEFAULT_DESCRIPTION = 'A Python %s' % _DEFAULT_NAME
 _DEFAULT_VERSION = '0.1.0'
 _DEFAULT_AUTHOR = os.getenv(ENV_USER)
