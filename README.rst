@@ -1,4 +1,4 @@
-|PyPI version|
+|PyPI version| |Build Status|
 
 project_cli
 ===========
@@ -73,3 +73,6 @@ This structure was inspired by `Kenneth Reitz <https://github.com/kennethreitz/s
 
 .. |PyPI version| image:: https://badge.fury.io/py/project-cli.svg
    :target: https://badge.fury.io/py/project-cli
+
+.. |Build Status| image:: https://travis-ci.org/ramonhagenaars/project-cli.svg?branch=master
+   :target: https://travis-ci.org/ramonhagenaars/project-cli
