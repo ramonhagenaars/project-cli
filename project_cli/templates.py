@@ -81,7 +81,7 @@ def get_context():
 
 def get_main_test_suite(name, runnable):
     result = '"""Contains a test suite for basic tests."""' + BR\
-             + "import context" + BR\
+             + "import tests.context" + BR\
              + "import unittest" + BR
     if runnable:
         result += "from " + name + ".__main__ import main" + BR
